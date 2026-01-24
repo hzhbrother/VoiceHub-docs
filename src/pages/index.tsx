@@ -13,10 +13,10 @@ function HomepageHeader() {
     <div className={styles.heroContainer}>
       <div className={styles.heroContent}>
         <Heading as="h1" className={styles.heroTitle}>
-          VoiceHub
+          华青之声点歌台
         </Heading>
         <p className={styles.heroSubtitle}>
-          智能点歌系统 - 现代化的点歌、排期和播放管理平台
+          华青之声点歌台 - 校园专属的音乐点歌平台，让音乐陪伴你的校园生活
         </p>
         <div className={styles.heroButtons}>
           <Link
@@ -26,9 +26,9 @@ function HomepageHeader() {
           </Link>
           <Link
             className={clsx('button button--secondary button--lg', styles.heroButton)}
-            href="https://vercel.com/new/clone?repository-url=https://github.com/laoshuikaixue/VoiceHub&env=DATABASE_URL,JWT_SECRET&envDescription=需要配置数据库连接和JWT密钥&envLink=https://github.com/laoshuikaixue/VoiceHub#环境变量说明"
+            href="https://www.hwfm.online/"
             target="_blank">
-            一键部署 🚀
+            进入点歌台 🎵
           </Link>
         </div>
       </div>
@@ -40,8 +40,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} 文档`}
-      description="VoiceHub 智能点歌系统文档 - 现代化的点歌、排期和播放管理平台">
+      title={`${siteConfig.title} 使用指南`}
+      description="华青之声点歌台使用指南 - 校园专属的音乐点歌平台">
       <HomepageHeader />
     </Layout>
   );

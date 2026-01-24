@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'VoiceHub',
-  tagline: '智能点歌系统 - 让音乐连接每一个人',
+  title: '华青之声点歌台',
+  tagline: '华青之声点歌台 - 让音乐陪伴校园生活',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,13 +15,13 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://voicehub.lao-shui.top',
+  url: 'https://www.hwfm.online/',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'laoshuikaixue', // Usually your GitHub org/user name.
-  projectName: 'voicehub-docs', // Usually your repo name.
+  organizationName: '', // Usually your GitHub org/user name.
+  projectName: '', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -60,7 +60,7 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'VoiceHub Logo',
+        alt: '华青之声 Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -68,23 +68,13 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '文档',
-        },
-        {
-          href: 'https://github.com/laoshuikaixue/VoiceHub',
-          label: '主项目',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/laoshuikaixue/voicehub-docs',
-          label: '文档源码',
-          position: 'right',
+          label: '使用指南',
         },
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} VoiceHub. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 华青之声点歌台. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

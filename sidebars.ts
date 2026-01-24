@@ -20,35 +20,26 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '快速开始',
       items: [
-        'getting-started/installation',
-        'getting-started/configuration',
         'getting-started/first-run',
       ],
     },
     {
       type: 'category',
-      label: '用户指南',
+      label: '师生使用指南',
       items: [
         'user-guide/overview',
       ],
     },
     {
       type: 'category',
-      label: '管理员指南',
+      label: '广播站管理指南',
       items: [
         'admin-guide/overview',
       ],
     },
     {
       type: 'category',
-      label: '开发指南',
-      items: [
-        'development/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: '故障排除',
+      label: '常见问题',
       items: [
         'troubleshooting/common-issues',
       ],
