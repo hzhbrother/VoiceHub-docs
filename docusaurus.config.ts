@@ -74,7 +74,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} 华青之声 | <a href="https://github.com/hzhbrother/VoiceHub-docs" target="_blank" rel="noopener noreferrer" class="footer-version-link">文档版本 1.0.7</a>`,
+      copyright: `<span>© ${new Date().getFullYear()} 华青之声</span><a href="https://github.com/hzhbrother/VoiceHub-docs" target="_blank" rel="noopener noreferrer" class="footer-version-link">文档版本 1.0.7</a>`,
     },
     prism: {
       theme: prismThemes.github,
