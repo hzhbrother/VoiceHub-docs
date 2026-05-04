@@ -33,3 +33,23 @@
 .footer-version-link:hover {
   color: #4fc3f7 !important;
 }
+
+/* 底部栏透明背景 */
+.footer {
+  background: transparent !important;
+}
+
+/* 底部栏上移并固定在页面底部 */
+footer.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+/* 确保页面内容不会被底部栏遮挡 */
+main {
+  padding-bottom: 60px;
+}
