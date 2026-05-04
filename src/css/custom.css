@@ -31,7 +31,7 @@
 
 /* 底部栏版本链接样式 */
 .footer-version-link {
-  color: #b0b0b0 !important;
+  color: #ecebeb !important;
   transition: color 0.3s ease;
 }
 
@@ -57,12 +57,12 @@ footer.footer {
   align-items: center;
 }
 
-/* 确保页面内容不会被底部栏遮挡 */
-main {
-  padding-bottom: 60px;
-}
-
 /* 底部栏链接字体大小 */
 .footer-version-link {
   font-size: 12px !important;
+}
+
+/* 确保页面内容不会被底部栏遮挡 */
+main {
+  padding-bottom: 60px;
 }
