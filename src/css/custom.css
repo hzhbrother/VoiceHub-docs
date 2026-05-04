@@ -33,6 +33,8 @@
 .footer-version-link {
   color: #ecebeb !important;
   transition: color 0.3s ease;
+  text-decoration: none !important;
+  font-size: 12px !important;
 }
 
 .footer-version-link:hover {
@@ -52,17 +54,30 @@ footer.footer {
   right: 0;
   padding: 10px 20px;
   z-index: 100;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* 底部栏链接字体大小 */
-.footer-version-link {
-  font-size: 12px !important;
 }
 
 /* 确保页面内容不会被底部栏遮挡 */
 main {
   padding-bottom: 60px;
+}
+
+/* 底部栏分隔符样式 */
+.footer-separator {
+  margin: 0 15px;
+  color: #888;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  footer.footer {
+    padding: 8px 12px;
+  }
+
+  .footer-version-link {
+    font-size: 10px !important;
+  }
+
+  .footer-separator {
+    margin: 0 8px;
+  }
 }
