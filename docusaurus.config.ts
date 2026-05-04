@@ -74,7 +74,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} 华青之声点歌台. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 华青之声点歌台. Built with Docusaurus. | 文档版本 1.0.6`,
     },
     prism: {
       theme: prismThemes.github,
