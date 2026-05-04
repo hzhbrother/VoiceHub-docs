@@ -29,24 +29,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* 底部栏全部文字粗体 */
-.footer {
-  font-weight: bold !important;
-}
-
-/* 底部栏版本链接样式 */
-.footer-version-link {
-  color: #ecebeb !important;
-  transition: color 0.3s ease;
-  text-decoration: none !important;
-  font-size: 14px !important;
-  font-weight: bold !important;
-}
-
-.footer-version-link:hover {
-  color: #ffffff !important;
-}
-
 /* 底部栏透明背景 */
 .footer {
   background: transparent !important;
@@ -62,6 +44,25 @@ footer.footer {
   z-index: 100;
 }
 
+/* 底部栏全部文字粗体和颜色 */
+.footer {
+  font-weight: bold !important;
+  color: #c3c1c1 !important;
+}
+
+/* 底部栏版本链接样式 */
+.footer-version-link {
+  color: #c3c1c1 !important;
+  transition: color 0.3s ease;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.footer-version-link:hover {
+  color: #ffffff !important;
+}
+
 /* 确保页面内容不会被底部栏遮挡 */
 main {
   padding-bottom: 60px;
@@ -70,7 +71,6 @@ main {
 /* 底部栏分隔符样式 */
 .footer-separator {
   margin: 0 15px;
-  color: #888;
   font-weight: normal !important;
 }
 
